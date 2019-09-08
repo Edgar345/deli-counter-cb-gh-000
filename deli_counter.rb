@@ -14,4 +14,6 @@ def line people
 end
 
 def take_a_number people, name
+  people << name
+  puts "Welcome, #{name}. You are number #{people.size + 1} in line."
 end
