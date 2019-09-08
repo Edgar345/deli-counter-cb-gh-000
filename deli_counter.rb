@@ -14,3 +14,4 @@ def line people
 end
 
 def take_a_number
+end
