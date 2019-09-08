@@ -19,10 +19,13 @@ def take_a_number people, name
 end
 
 def now_serving people
-  if people.empty?
-    puts "There is nobody waiting to be served!"
-  else
-    name = people.shift
-    puts "Currently serving #{name}."
-  end
+  # if people.empty?
+  #   puts "There is nobody waiting to be served!"
+  # else
+  #   name = people.shift
+  #   puts "Currently serving #{name}."
+  # end
+
+  name = people.shift
+  puts name ? "Currently serving #{name}." : "There is nobody waiting to be served!"
 end
