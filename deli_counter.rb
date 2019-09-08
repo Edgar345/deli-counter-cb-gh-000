@@ -5,9 +5,12 @@ def line array
   if array.empty?
     puts "The line is currently empty."
   else
-    print "The line is currently:"
+    message = "The line is currently:" 
+    #print
     array.each_with_index do |name, index|
-      print " #{index + 1}. #{name}"
+      #print " #{index + 1}. #{name}"
+      message += " #{index + 1}. #{name}"
     end
+    puts message
   end
 end
