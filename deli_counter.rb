@@ -9,4 +9,5 @@ def line array
     array.each_with_index do |name, index|
       print " #{index + 1}. #{name}"
     end
+  end
 end
