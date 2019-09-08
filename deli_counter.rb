@@ -24,4 +24,5 @@ def now_serving people
   else
     name = people.shift
     puts "Currently serving #{name}."
+  end
 end
