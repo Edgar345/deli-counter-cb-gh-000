@@ -4,7 +4,7 @@
 def line array
   if array.empty?
     return "The line is currently empty."
-  else 
+  else
     print "The line is currently:"
     array.each_with_index do |name, index|
       print " #{index + 1}. #{name}"
